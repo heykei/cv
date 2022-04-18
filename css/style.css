@@ -112,19 +112,12 @@ section{
     color: black;
     text-decoration: none;
 }
-.fleche{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    width: 50px;
-    background-color: orange;
-    border-radius: 50%;
-}
 
 .up{
-    width: 50px;
-    height: 30px;
+ font-size: 40px;
+ width: 20px;
+ color: black;
+ text-decoration: none;
 }
 
 
