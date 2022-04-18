@@ -22,7 +22,13 @@
         <h2>Developpeur ???</h2>
         
         <div class="rond">
-            <img class="photo" src="css/Img/ken1.jpg" alt="Kenny Trupin">
+            <!--<img class="photo" src="css/Img/ken1.jpg" alt="Kenny Trupin">-->
+            <img srcset="ken1.jpg 480w,
+                        ken1.jpg 800w"
+                sizes="(max-width: 600px) 480px,
+            800px"
+                src="css/Img/ken1.jpg"
+                alt="Ma photo de profil">
         </div>
         
     </header>
@@ -109,7 +115,6 @@
 
     <div class="fleche"><a href="#"><img class="up" src="css/Img/arrow-up-long-solid.svg" alt="Vers le haut de la page"></a></div>
     
-<script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
     function addDarkmodeWidget() {
