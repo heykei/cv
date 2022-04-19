@@ -65,9 +65,11 @@ h4{
 }
 .front li{
     font-size: 25px;
+    padding: auto;
 }
 .back li{
     font-size: 25px;
+    padding: auto;
 }
 section{
     margin-bottom: 40px;
